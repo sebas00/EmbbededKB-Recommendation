@@ -1,0 +1,25 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "sfdc.kbrecommend.EmbeddedKBRecommendationEngine",
+  "datasource": {
+    "params" : {
+      "appName": "classi"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "embedkb",
+      "params": {
+        "appName": "classi",
+        "unseenOnly": false,
+        "seenEvents": ["buy", "view", "upvote"],
+        "similarEvents": ["view"],
+        "rank": 10,
+        "numIterations" : 14,
+        "lambda": 0.01,
+        "seed": 3
+      }
+    }
+  ]
+}
