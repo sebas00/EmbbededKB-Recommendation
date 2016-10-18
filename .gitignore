@@ -2,6 +2,7 @@ manifest.json
 target/
 pio.log
 /pio.sbt
+pio.sbt
 
 .DS_Store
 
