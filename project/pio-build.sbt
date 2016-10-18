@@ -1,1 +1,1 @@
-addSbtPlugin("org.apache.predictionio" % "apache-predictionio-core" % "0.10.0-incubating")
+addSbtPlugin("org.apache.predictionio" % "apache-predictionio-core_2.10" % "0.10.0-incubating")
