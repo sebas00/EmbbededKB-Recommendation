@@ -4,12 +4,12 @@ assemblySettings
 
 name := "embedded-knowledge-recommendation"
 
-organization := "io.prediction"
+organization := "org.apache.predictionio"
 
 parallelExecution in Test := false
-scalaVersion := "2.10.6"
+scalaVersion := "2.10.5"
+
 libraryDependencies ++= Seq(
-  "org.apache.predictionio"    %% "apache-predictionio-core"          % pioVersion.value % "provided",
-  "org.apache.spark" %% "spark-core"    % "1.3.1" % "provided",
-"org.apache.spark" %% "spark-mllib" % "1.3.1" % "provided"
-)
+  "org.apache.predictionio" %% "apache-predictionio-core" % "0.10.0-incubating" % "provided",
+  "org.apache.spark"        %% "spark-core"               % "1.4.1" % "provided",
+"org.apache.spark" %% "spark-mllib" % "1.4.1" % "provided")
