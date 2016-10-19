@@ -11,6 +11,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.mllib.recommendation.ALS
 import org.apache.spark.mllib.recommendation.{Rating => MLlibRating}
 import org.apache.spark.rdd.RDD
+
 import grizzled.slf4j.Logger
 
 import scala.collection.mutable.PriorityQueue
