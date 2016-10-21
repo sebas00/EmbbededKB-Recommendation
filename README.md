@@ -12,7 +12,7 @@ Event data is pushed from the Salesforce Embedded Knowledge Demo Package to the 
 
 
 Please refer to http://docs.prediction.io/templates/ecommercerecommendation/quickstart/
-and the Heroku Buildpack.
+and the Heroku Buildpack https://github.com/heroku/predictionio-buildpack for installation instructions
 
 ## Versions
 
